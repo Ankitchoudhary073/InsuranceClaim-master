@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: insuranceclaimrepos
-        image: myregdsconfig.azurecr.io/dockersamplerepos:latest
+        image: iptreatmentmanagement3cr.azurecr.io/insuranceclaimrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
