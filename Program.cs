@@ -27,7 +27,7 @@ namespace InsuranceClaim
                     webBuilder.UseStartup<Startup>()
                     .ConfigureLogging((hostingContext, logging) =>
                     {
-                        logging.AddLog4Net();
+                        logging.AddLog();
 
                         logging.SetMinimumLevel(LogLevel.Error);
                     });
